@@ -3,6 +3,6 @@ services:
     build:
       context: ./
     image: "anshumanhub/nginx:v"
-    container_name: "cont"
+    container_name: "dpngc"
     ports:
       - "5000:80"
