@@ -1,0 +1,8 @@
+services:
+  nginx:
+    build:
+      context: ./
+    image: "anshumanhub/nginx:v"
+    container_name: "cont"
+    ports:
+      - "5000:80"
